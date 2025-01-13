@@ -1,0 +1,7 @@
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\bin\Debug\CRUD Console.exe.config
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\bin\Debug\CRUD Console.exe
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\bin\Debug\CRUD Console.pdb
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\obj\Debug\CRUD Console.csproj.AssemblyReference.cache
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\obj\Debug\CRUD Console.csproj.CoreCompileInputs.cache
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\obj\Debug\CRUD Console.exe
+C:\Users\fcoav\source\repos\CRUD Console\CRUD Console\obj\Debug\CRUD Console.pdb
