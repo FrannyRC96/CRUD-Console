@@ -12,8 +12,10 @@ namespace CRUD_Console
     {
        //this is the variable for the SqlConnection
        static SqlConnection conexion;
-        //In this case this is the string to get the database source, you Should to change to your 
-       static string CadenaDeConexion = "";
+        //In this case this is the string to get the database source, you Should to:
+                    //in server name you should to write your servername, and in database name you should to write your database name
+        static string servername = "LAPTOP-10610VU7\\SQLEXPRESS", databasename ="missa";
+       static string CadenaDeConexion = $"Data Source ="+servername+";Initial Catalog="+databasename+";Integrated Security=True;";
 
         static void Main(string[] args)
         {
