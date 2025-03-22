@@ -1,0 +1,98 @@
+-CRUD Console-
+
+//ACTUALIZACIÓN
+Implemente la Metodologia SOLID en este CRUD
+
+Es una pequeña aplicación en consola
+que sirve para administrar usuarios, es sencilla
+y fue hecha para explicar fundamentos de bases de
+datos, y el uso de los CRUD's (Create, Read, Update, Delete)
+
+##Requisitos Previos
+- .Net SDK 6.0 o superior
+- Sql Server, Sql managment server o algun programa para administrar bases de datos.
+- Git
+- Visual Studio 2019 o superior.
+
+##Instalación 
+1. Clona este repositorio
+   git clone https://github.com/FrannyRC96/CRUD-Console/tree/master/source/repos/CRUD%20Console
+2. Abre el proyecto en Visual Studio
+3. Abre una ventana de Sql Server
+4. En el repositorio existe un archivo llamado:
+"TableUsuariosQuery" ejecutalo en Sql Server, si
+es necesario crea una base de datos.
+5. Configura la cadena de conexión en el archivo Program.CS
+	static string servername = "TuServidor";
+	static string databasename = "TuBaseDeDatos";
+##Uso
+-La aplicación se usa de manera sencilla
+e intuitiva, con opciones del 1 al 5
+-Utiliza las funciones CRUD.
+
+##Contribuciones 
+las contribuciones son bien venidas, siguiendo
+esta serie de pasos:
+
+1.Haz un fork del repositorio.
+2.Crea una nueva rama (git checkout -b nueva-rama)
+3.Realiza tus cambios y haz commit (git commit -m "Hice este cambio")
+4.Haz push a la rama (git push origin nueva-rama)
+5.Abre un pull request.
+
+#LICENCIA
+este proyecto está bajo licencia MIT
+
+##Creditos y Apoyo externo:
+Este proyecto fue desarrollado por: Francisco Reyes (https://github.com/FrannyRC96)
+
+Si deseas apoyarme en mis proyectos
+extra, te agradeceria una visita al sitio 
+de mi libro:
+https://www.amazon.com.mx/Majo-Francisco-Javier-Reyes-Castanedo/dp/B0BFHGNM6R
+
+
+****ENGLISH****
+
+UPDATE: I performance this CRUD using SOLID metodology
+
+-CRUD Console-
+It is a small console application designed to manage users. 
+It is simple and was created to explain the fundamentals 
+of databases and the use of CRUD operations (Create, Read, Update, Delete).
+
+##Prerequisites
+- .NET SDK 6.0 or higher
+- SQL Server, SQL Management Studio, or any database management tool
+- Git
+- Visual Studio 2019 or higher
+
+##Installation
+1. Clone this repository: 
+  git clone https://github.com/FrannyRC96/CRUD-Console/tree/master/source/repos/CRUD%20Console
+2. Open the project in Visual Studio
+3. Open an SQL Server window
+4. In the repository, there is a file named: 
+"TableUsuariosQuery" Execute it in SQL Server. If necessary, create a new database.
+5. Configure the connection string in the Program.cs file:
+	static string servername = "YourServer";  
+	static string databasename = "YourDatabase";  
+
+##Usage
+The application is straightforward and intuitive, with options numbered 1 to 5. It uses CRUD functionalities.
+
+##Contributions
+Contributions are welcome by following these steps:
+1. Fork the repository.
+2. Create a new branch: git checkout -b new-branch
+3. Make your changes and commit them: git commit -m "Made this change"
+4. Push to the branch: git push origin new-branch
+5. Open a pull request.
+
+##License
+This project is under the MIT license.
+
+##Credits and External Support
+This project was developed by Francisco Reyes (https://github.com/FrannyRC96). 
+If you’d like to support me in my extra projects, I’d appreciate a visit to my book’s site: 
+https://www.amazon.com.mx/Majo-Francisco-Javier-Reyes-Castanedo/dp/B0BFHGNM6R
