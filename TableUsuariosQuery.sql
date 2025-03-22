@@ -1,4 +1,6 @@
-USE [missa]
+
+CREATE DATABASE myDB
+USE [myDB]
 GO
 
 /****** Object:  Table [dbo].[Usuario]    Script Date: 14/01/2025 09:29:26 p. m. ******/

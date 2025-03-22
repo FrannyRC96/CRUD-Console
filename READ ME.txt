@@ -22,9 +22,8 @@ datos, y el uso de los CRUD's (Create, Read, Update, Delete)
 4. En el repositorio existe un archivo llamado:
 "TableUsuariosQuery" ejecutalo en Sql Server, si
 es necesario crea una base de datos.
-5. Configura la cadena de conexión en el archivo Program.CS
-	static string servername = "TuServidor";
-	static string databasename = "TuBaseDeDatos";
+5. Configura la cadena de conexión en el archivo Program.CS colocando
+la cadena de conexión en la variable cadenadeconexion
 ##Uso
 -La aplicación se usa de manera sencilla
 e intuitiva, con opciones del 1 al 5
@@ -74,10 +73,8 @@ of databases and the use of CRUD operations (Create, Read, Update, Delete).
 3. Open an SQL Server window
 4. In the repository, there is a file named: 
 "TableUsuariosQuery" Execute it in SQL Server. If necessary, create a new database.
-5. Configure the connection string in the Program.cs file:
-	static string servername = "YourServer";  
-	static string databasename = "YourDatabase";  
-
+5. Configure the connection string in the Program.cs file
+adding your database conexion path in the variable cadenadeconexion
 ##Usage
 The application is straightforward and intuitive, with options numbered 1 to 5. It uses CRUD functionalities.
 
