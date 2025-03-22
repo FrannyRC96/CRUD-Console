@@ -215,7 +215,7 @@ namespace CRUD_Console
         static void Main(string[] args)
         {
             //Esta es la conexion sql, aquí debes poner tu conexión SQL a tu base de datos propia
-            string cadenaConexion = "Data Source=LAPTOP-10610VU7\\SQLEXPRESS;Initial Catalog=missa;Integrated Security=True;";
+            string cadenaConexion = "";
             IUsuarioRepository usuarioRepo = new UsuarioRepository(cadenaConexion);
             UsuarioService usuarioService = new UsuarioService(usuarioRepo);
 
